@@ -44,9 +44,35 @@ form input {
 }
 
 form button {
-    padding: 5px;
+    padding: 12px;
     width: 100%;
-    margin-top: 20px;
+    background-color: #7494ec;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #6884d3;
+}
+
+p {
+    font-size: 14.5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p a {
+    color: #7494ec;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
 }
 
 #LogInForm{
@@ -86,4 +112,23 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.checkbox-group {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.checkbox-group input {
+    margin-right:10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 15px;
+    margin-top: 5px;
+    display: none;
 }

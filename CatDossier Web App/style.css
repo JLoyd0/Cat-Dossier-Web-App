@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    font-size: 30px;
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.container span {
+    font-weight: bold;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.container form {
+    max-width: 300px;
+    position: absolute;
+    top: 130px;
+    padding: 0 20px;
+    transition: transform 1s;
+}
+
+form input {
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+form button {
+    padding: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#LogInForm{
+    left: -300px;
+}
+
+#SignUpForm {
+    left: 0;
+}
+
+.main-page h1 {
+    position: absolute;
+    font-size: 50px;
+    font-family: Georgia, serif;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.main-page img {
+    float: right;
+    width: 150px;
+    height: auto;
+    align-items: center;
+    justify-content: center;    
+}
+
+body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("background/v567-mynt-doodles-01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

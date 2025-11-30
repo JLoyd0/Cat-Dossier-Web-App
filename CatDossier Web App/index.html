@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CatDossier</title>
+</head>
+<body>
+    <main>
+        <div class="main-page">
+            <div class="background">
+                <img src="background/v567-mynt-doodles-01.jpg" alt="background" />
+            </div>
+            <div class="row">
+                <dive class="col-1">
+                    <h1>CatDossier</h1>
+                </dive>
+                <div class="col-2"><img src="./img/cat.png" alt="img" />
+                </div>
+            </div>
+        <div class="container">
+            <div class="form-btn">
+                <span onclick="LogIn()">Log In</span>
+                <span onclick="SignUp()">Sign Up</span>
+            </div>
+            <form id="LogInForm">
+                <input type="text" placeholder="Username" />
+                <input type="text" placeholder="Password" />
+                <button>Log In</button>
+            </form>
+             <form id="SignUpForm">
+                <input type="text" placeholder="Username" />
+                <input type="text" placeholder="Email" />
+                <input type="text" placeholder="Password" />
+                <button>Sign Up</button>
+            </form>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
